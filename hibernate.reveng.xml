@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="pt_abstractportletdescription" catalog="portal"
+		class="com.portal.model.AbstractPortletDescription">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="pt_defaultportlet" catalog="portal"
+		class="com.portal.model.DefaultPortlet">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="pt_gridportletdescription" catalog="portal"
+		class="com.portal.model.GridPortletDescription">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="pt_gridproperty" catalog="portal"
+		class="com.portal.model.GridProperty">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="pt_gridsearch" catalog="portal"
+		class="com.portal.model.GridSearch">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="pt_iframeportletdescription" catalog="portal"
+		class="com.portal.model.IframePortletDescription">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="pt_linkportletdescription" catalog="portal"
+		class="com.portal.model.LinkPortletDescription">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="pt_linkproperty" catalog="portal"
+		class="com.portal.model.LinkProperty">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="pt_portal" catalog="portal"
+		class="com.portal.model.Portal">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="pt_portalgroup" catalog="portal"
+		class="com.portal.model.PortalGroup">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="pt_portallayout" catalog="portal"
+		class="com.portal.model.PortalLayout">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="pt_portlet" catalog="portal"
+		class="com.portal.model.Portlet">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="pt_role_portalgroup" catalog="portal"
+		class="com.portal.model.RolePortalGroup">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="pt_role" catalog="portal"
+		class="com.portal.model.Role">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="pt_user_role" catalog="portal"
+		class="com.portal.model.UserRole">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+<table name="pt_user" catalog="portal" class="com.portal.model.User">
+	<primary-key>
+		<generator class="identity"></generator>
+	</primary-key>
+</table>
+</hibernate-reverse-engineering>
